@@ -1,0 +1,13 @@
+com/iwis/Application.class
+com/iwis/controller/users/UserController.class
+com/iwis/dao/repo/GoodsRepo.class
+com/iwis/controller/auth/LoginController.class
+com/iwis/dao/entity/Role.class
+com/iwis/dao/entity/Goods.class
+com/iwis/dao/repo/ShopRepo.class
+com/iwis/controller/auth/RegistrationController.class
+com/iwis/dao/entity/User.class
+com/iwis/dao/repo/UserRepository.class
+com/iwis/security/WebSecurityConfig.class
+com/iwis/dao/entity/Shop.class
+com/iwis/controller/users/AdminController.class

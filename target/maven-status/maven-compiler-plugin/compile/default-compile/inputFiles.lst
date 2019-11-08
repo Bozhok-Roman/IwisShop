@@ -1,0 +1,13 @@
+/home/romanb/IdeaProjects/auth/src/main/java/com/iwis/controller/users/AdminController.java
+/home/romanb/IdeaProjects/auth/src/main/java/com/iwis/dao/repo/ShopRepo.java
+/home/romanb/IdeaProjects/auth/src/main/java/com/iwis/controller/auth/RegistrationController.java
+/home/romanb/IdeaProjects/auth/src/main/java/com/iwis/dao/entity/Role.java
+/home/romanb/IdeaProjects/auth/src/main/java/com/iwis/controller/users/UserController.java
+/home/romanb/IdeaProjects/auth/src/main/java/com/iwis/dao/entity/Goods.java
+/home/romanb/IdeaProjects/auth/src/main/java/com/iwis/dao/repo/GoodsRepo.java
+/home/romanb/IdeaProjects/auth/src/main/java/com/iwis/controller/auth/LoginController.java
+/home/romanb/IdeaProjects/auth/src/main/java/com/iwis/dao/entity/User.java
+/home/romanb/IdeaProjects/auth/src/main/java/com/iwis/dao/repo/UserRepository.java
+/home/romanb/IdeaProjects/auth/src/main/java/com/iwis/security/WebSecurityConfig.java
+/home/romanb/IdeaProjects/auth/src/main/java/com/iwis/Application.java
+/home/romanb/IdeaProjects/auth/src/main/java/com/iwis/dao/entity/Shop.java
