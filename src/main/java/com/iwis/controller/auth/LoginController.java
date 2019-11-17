@@ -22,9 +22,9 @@ public class LoginController {
     public String userLogin(User user){
 
         if (user.getRoles().equals(Collections.singleton(Role.ADMIN))){
-            return "redirect:/admin_page";
+            return "redirect:/admin/admin_page";
         }
-        return "redirect:/user_page";
+        return "redirect:/user/user_page";
 
     }
 }

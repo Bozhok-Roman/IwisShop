@@ -17,7 +17,7 @@ import javax.persistence.ManyToMany;
 import java.util.List;
 import java.util.Set;
 
-@Controller
+@Controller("/user")
 
 public class UserController {
 
@@ -43,7 +43,7 @@ public class UserController {
         }
         return "redirect:/add_goods?id ="+shop.getId();
     }
-    @PostMapping("/add_goods")
+    @PostMapping("/add_goods_for_user")
     public String addGoods(@RequestParam(name = "id") Long id,Goods goods){
 
         Shop allById = shopRepo.findAllById(id);

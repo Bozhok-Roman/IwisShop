@@ -15,7 +15,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.List;
 import java.util.Set;
 
-@Controller
+@Controller("/admin")
+
 public class AdminController {
     @Autowired
     private ShopRepo shopRepo;
@@ -43,7 +44,7 @@ public class AdminController {
         }
         return "redirect:/add_goods?id ="+shop.getId();
     }
-    @PostMapping("/add_goods")
+    @PostMapping("/add_goods_for_admin")
     public String addGoods(@RequestParam(name = "id") Long id, Goods goods){
 
         Shop allById = shopRepo.findAllById(id);
